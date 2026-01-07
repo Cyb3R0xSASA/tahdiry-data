@@ -20,3 +20,5 @@ const response = async (url: string, method: 'GET' | 'POST'): Promise<string> =>
     const res = await axios(config);
     return res.data as string;
 }
+
+export default response;

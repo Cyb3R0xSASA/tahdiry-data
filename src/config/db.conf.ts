@@ -1,5 +1,5 @@
 import { Db, MongoClient } from "mongodb";
-import { Env } from "./constants.conf";
+import { Env } from "./constants.conf.js";
 
 const mongoClient = async (env: Env): Promise<Db> => {
     const mongoUri = env.MONGO_URI;
