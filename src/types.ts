@@ -22,14 +22,38 @@ export interface ITerm {
     grade_id: string;
     id: number;
     item_index: number;
-    title: string;
     codeId: string;
     codeType: string;
-    fullPath: string;
-    parentId: number;
+    title: string;
+    itemId: any;
     orderInParent: number;
-    isParent: number;
+    imagePath: string;
+    hDate: string;
+    gDate: string;
+    gender: string;
     unitID: any;
     chapterId: any;
-    directParentId: any;
+    description: string;
+    fullPath: string;
+    isActive: number;
+    subjectGroupId: number;
+    teacherGuidCount: number;
+    hasTeacherGuides: number;
+    hasSubjectBooks: number;
+    linkable: number;
+    flashActivityCount: number;
+    questionsCount: number;
+    subjectBooksCount: number;
+    books: any;
+    directParentId: number;
+    termOrder: number;
+}
+
+export interface ISubject {
+    term_id: string;
+    id: number;
+    title: string;
+    parent_type: string;
+    parent_id: number;
+    is_extra: boolean;
 }

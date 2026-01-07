@@ -69,7 +69,7 @@
 
 -   Req `GET /tt/get.php?term_id=`
 -   Params `id: term.data.id`
--   Test `GET /tt/get.php?grade_id=34`
+-   Test `GET /tt/get.php?term_id=34`
 
 ### **response**
 
