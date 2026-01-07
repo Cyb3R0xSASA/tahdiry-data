@@ -90,11 +90,11 @@
 
 ---
 
-## Grades
+## Subjects
 
 -   Req `GET /tt/get.php?p_subj={?}&ex_sem_id={?}&a=p`
 -   Params `id: term.data.id`
--   Test `GET /tt/get.php?p_subj={?}&ex_sem_id={?}&a=p`
+-   Test `GET /tt/get.php?p_subj={273}&ex_sem_id={34}&a=p`
 
 ### **response**
 
