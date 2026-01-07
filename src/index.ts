@@ -7,3 +7,6 @@
 // TODO: Scrape terms of grades
 // TODO: Store terms in terms collection and make relation with grade {_id}
 
+// TODO: Scrape subjects of term
+// TODO: Clean the response of subjects data to [{lesson_from, lesson_to}]
+// TODO: Store subjects in subjects collection and make relation with term {_id}
