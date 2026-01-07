@@ -17,3 +17,19 @@ export interface IGrade {
     stage_id: number;
     stg_id?: string;
 }
+
+export interface ITerm {
+    grade_id: string;
+    id: number;
+    item_index: number;
+    title: string;
+    codeId: string;
+    codeType: string;
+    fullPath: string;
+    parentId: number;
+    orderInParent: number;
+    isParent: number;
+    unitID: any;
+    chapterId: any;
+    directParentId: any;
+}
