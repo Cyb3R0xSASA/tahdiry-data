@@ -51,9 +51,21 @@ export interface ITerm {
 
 export interface ISubject {
     term_id: string;
-    id: number;
+    id: number | string;
     title: string;
     parent_type: string;
     parent_id: number;
     is_extra: boolean;
+}
+
+export interface IStageEntry {
+    unit?: string;
+    lesson?: string;
+};
+
+
+export interface ILessons {
+    subject_id?: string | number;
+    term_id?: number;
+    weeks: IStageEntry[][];
 }

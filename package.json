@@ -15,6 +15,7 @@
     "test": "tsc && node dist/test/index.js"
   },
   "devDependencies": {
+    "@types/cheerio": "^1.0.0",
     "@types/node": "^25.0.3",
     "ts-node": "^10.9.2",
     "typescript": "^5.9.3"
@@ -22,7 +23,9 @@
   "dependencies": {
     "@imaginerlabs/user-agent-generator": "^1.0.2",
     "axios": "^1.13.2",
+    "cheerio": "^1.1.2",
     "dotenv": "^17.2.3",
+    "got": "^14.6.6",
     "mongodb": "^7.0.0"
   }
 }
